@@ -245,7 +245,7 @@ describe('Inflector', () => {
     inflect.human('col_rpted_bugs', 'Reported bugs');
 
     assert.equal(Inflector.humanize('col_rpted_bugs'), 'Reported bugs');
-    assert.equal(Inflector.humanize('COL_rpted_bugs'), 'Col rpted bugs');
+    assert.equal(Inflector.humanize('COL_rpted_bugs'), 'COL rpted bugs');
   });
 
   it('properly generates ordinal suffixes', () => {

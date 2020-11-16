@@ -206,7 +206,8 @@ module.exports = {
   UnderscoreToHuman: {
     'employee_salary' : 'Employee salary',
     'employee_id'     : 'Employee',
-    'underground'     : 'Underground'
+    'underground'     : 'Underground',
+    'API_type'        : 'API type'
   },
 
   UnderscoreToHumanWithoutCapitalize: {

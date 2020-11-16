@@ -26,7 +26,7 @@ export default function humanize(lowerCaseAndUnderscoredWord, options) {
   result = result.replace(/_/g, " ");
 
   result = result.replace(/([a-z\d]*)/gi, function(match) {
-    return inflections().acronyms[match] || match.toLowerCase();
+    return inflections().acronyms[match] || match;
   });
 
   if (options.capitalize) {
