@@ -1,5 +1,5 @@
 {
-  "name": "inflected",
+  "name": "@easybutton/inflected",
   "version": "2.1.0",
   "description": "A port of ActiveSupport's inflector to Node.js",
   "main": "dist/umd/inflected.js",
